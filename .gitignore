@@ -1,0 +1,10 @@
+*.pyc
+dist
+*.egg-info
+.svn
+.svnignore
+.svnexternals
+build
+.venv_*
+django_croppic.egg-info
+.idea
