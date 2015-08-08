@@ -13,7 +13,7 @@ def _static_files(prefix):
 
 setup(
     name='django-croppic',
-    version='0.0.1',
+    version='0.0.2',
     description='A Django package which uses Croppic.net to upload and crop images.',
     author='Aamir Adnan',
     author_email='s33k.n.d3str0y@gmail.com',

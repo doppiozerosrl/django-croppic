@@ -8,9 +8,9 @@ A Django package which uses [Croppic](http://croppic.net/) to upload and crop im
 Installation
 ============
 
-Install from repository:
+Install from pypi:
 
-    pip install git+https://github.com/intellisense/django-croppic#egg=django-croppic
+    pip install django-croppic
 
 To use `django-croppic` in your Django project:
 
