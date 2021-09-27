@@ -1,4 +1,4 @@
-import urlparse
+from urllib.parse import urlparse
 
 from .conf import MIN_SIZE
 

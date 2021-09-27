@@ -1,5 +1,5 @@
 import json
-import StringIO
+from io import StringIO
 
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
