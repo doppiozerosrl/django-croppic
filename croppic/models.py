@@ -23,7 +23,7 @@ def picture_upload_to(instance, filename):
 
 class Picture(models.Model):
     image = models.ImageField(upload_to=picture_upload_to)
-    user = models.ForeignKey(USER_MODEL, null=True, blank=True)
+    user = models.ForeignKey(USER_MODEL, null=True, blank=True, on_delete=models.CASCADE)
     created = models.DateTimeField(default=timezone.now)
 
 
